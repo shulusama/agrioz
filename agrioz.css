@@ -1,0 +1,151 @@
+.navbar ul a{
+  color: white;
+  text-decoration:none;
+}
+
+.navbar ul a:hover{
+  color: rgba(255,255,255,0.80);
+  text-decoration:none;
+}
+
+body{
+  background-image: url(img/ricepaper2.png);
+  background-repeat: repeat;
+}
+.hero-img{
+  background-color: gray;
+  background-image: url("img/hero-1.jpg");
+  background-size: 100%;
+  height: 600px;
+  width: 100%;
+}
+.logo{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.navbar{
+  position: absolute;
+  left: 0;
+  text-align: center;
+  margin-top:520px;
+  width: 100%;
+}
+
+.navbar li{
+  display: inline-block;
+  margin-right: 50px;
+  color: white;
+  font-size: 18px;
+}
+.about{
+  text-align: center;
+}
+.title{
+  font-size: 24px;
+  color: #6A5B56;
+  width: 150px;
+  border-bottom: 4px solid #F6931D;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0px auto;
+}
+.tourism{
+  text-align: center;
+}
+.tourism-site{
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  border-radius: 5px;
+}
+.tourism-img{
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 0px 0px 5px 5px;
+  background-image: url("img/tourism-1.jpg");
+  background-size: 400px;
+}
+.triangle{
+  background-image: url("img/triangle.png");
+  width: 18px;
+  height: 14px;
+  margin: 0 auto;
+}
+
+.tourism-text{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 600px;
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0 auto;
+  color: #6A5B56;
+}
+
+.gallery{
+  width: 1023px;
+  height: 622px;
+  text-align:center;
+  margin: 0 auto;
+  background-image: url("img/gallery.png");
+  margin-bottom: 50px;
+}
+
+.gallery-text{
+  width: 600px;
+  height: 100px;
+  text-align:center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6A5B56;
+}
+
+.direction{
+  width: 1024px;
+  height: 250px;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.button{
+  width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  margin-top:50px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid #6A5B56;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6A5B56;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color: rgba(255,255,255,0.80);
+}
+
+.footer{
+  background-color: #6A5B56;
+  width: 100%;
+  height: 180px;
+  color: rgba(255,255,255,0.80);
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
