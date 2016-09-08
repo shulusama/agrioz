@@ -2,26 +2,38 @@
 <html>
 <head>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta charset="utf-8">
   <title>agrioz</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="agrioz.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
 <!--nav hero-->
   <div>
     <div class="hero-img">
       <div class="logo"><img src="img/logo.png"></div>
+
       <!--nav bar-->
-    <div class="navbar">
-      <ul>
-        <li class="nav-list"><a href="#about">關於</a></li>
-        <li class="nav-list"><a href="#tourism">橘之鄉風光</a></li>
-        <li class="nav-list"><a href="#direction">交通方式</a></li>
-        <li class="nav-list"><a href="#contact">聯絡我們</a></li>
-      </ul>
+      <div class="navbar">
+        <ul>
+          <li class="nav-list"><a href="#about">關於</a></li>
+          <li class="nav-list"><a href="#tourism">橘之鄉風光</a></li>
+          <li class="nav-list"><a href="#direction">交通方式</a></li>
+          <li class="nav-list"><a href="#contact">聯絡我們</a></li>
+        </ul>
+      </div>
+      <div class="mask"></div>
+      <div class="slider">
+        <div><img src="img/hero-1.jpg" class="slider_item"></div>
+        <div><img src="img/tourism-1.jpg" class="slider_item"></div>
+        <div><img src="img/hero-2.jpg" class="slider_item"></div>
+        <div><img src="img/hero-3.jpg" class="slider_item"></div>
+      </div>
     </div>
   </div>
-    </div>
 
 
 <!--container-->
@@ -75,5 +87,26 @@ Mail：orange.country@msa.hinet.net</br>
 </p>
 
   </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+  $('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 2000
+    });
+  });
+
+  </script>
+
+
 </body>
 </html>
